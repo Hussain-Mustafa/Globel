@@ -50,7 +50,6 @@ const Hero = () => {
     
   };
 
-
   return (
     <div>
    <section
