@@ -299,7 +299,7 @@ useEffect(() => {
   >
     Skip to content
   </a>
-  <div className="hfeed site" id="page">
+  <div className="hfeed site" id="">
     <div
       data-elementor-type="header"
       data-elementor-id={16}
@@ -1494,13 +1494,14 @@ useEffect(() => {
       <div className="ast-container">
         <div id="primary" className="content-area primary">
           <main id="main" className="site-main">
+          {/* <div className='inrrer-pagehead'></div> */}
             <article
               className="post-4678 page type-page status-publish ast-article-single"
               id="post-4678"
               itemType="https://schema.org/CreativeWork"
               itemScope="itemscope"
             >
-              <header className="entry-header ast-no-thumbnail ast-no-title ast-header-without-markup" />
+              {/* <header className="entry-header ast-no-thumbnail ast-no-title ast-header-without-markup" /> */}
               {/* .entry-header */}
               <div className="entry-content clear" itemProp="text">
                 <div
@@ -1508,7 +1509,8 @@ useEffect(() => {
                   data-elementor-id={4678}
                   className="elementor elementor-4678"
                 >
-                  <section
+                  
+                  {/* <section
                     data-particle_enable="false"
                     data-particle-mobile-disabled="false"
                     className="elementor-section elementor-top-section elementor-element elementor-element-8702708 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
@@ -1525,7 +1527,7 @@ useEffect(() => {
                         <div className="elementor-widget-wrap" />
                       </div>
                     </div>
-                  </section>
+                  </section> */}
                   <section
                     data-particle_enable="false"
                     data-particle-mobile-disabled="false"

@@ -19,6 +19,7 @@ const Hero = () => {
     fade: true,
     cssEase: 'linear',
     slidesToShow:2,
+    pauseOnHover:false,
     beforeChange: (current, next) => setCurrentSlide(next),
     // responsive: [
     //   {

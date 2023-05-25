@@ -4030,9 +4030,9 @@ main, nav {
   margin-left: auto;
   margin-right: auto;
 }
-.page .entry-header {
+/* .page .entry-header {
   margin-bottom: 1.5em;
-}
+} */
 .entry-header {
   margin-bottom: 1em;
   word-wrap: break-word;
@@ -5062,9 +5062,9 @@ main, nav {
   margin-left: auto;
   margin-right: auto;
 }
-.page .entry-header {
+/* .page .entry-header {
   margin-bottom: 1.5em;
-}
+} */
 .entry-header {
   margin-bottom: 1em;
   word-wrap: break-word;
@@ -5426,10 +5426,10 @@ main, nav {
 
 .elementor-16 .elementor-element.elementor-element-08b2ee4 .elementskit-navbar-nav > li > a {
   font-family: "Poppins", Sans-serif;
-  font-size: 16px;
+  font-size: 16px!important;
   font-weight: 700;
   color: #FFFFFF;
-  padding: 0px 40px 0px 0px;
+  padding: 0px 30px 0px 0px;
 }
 
 .elementor-16 .elementor-element.elementor-element-08b2ee4 .elementskit-navbar-nav > li > a:hover {
@@ -6178,7 +6178,7 @@ li.current-menu-ancestor > a {
 
 .elementor-widget-ekit-nav-menu .elementskit-navbar-nav>li.elementskit-megamenu-has.relative_position .elementskit-megamenu-panel{
 
-  top: 25px !important;
+  top: 96px !important;
 
 
 }

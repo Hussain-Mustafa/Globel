@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="hfeed site" id="page">
     <BrowserRouter>
-    <Navbar />
+    
         <Routes>
         <Route  path="/" element={<Home />} />
         <Route  path="/hubspot" element={<HubSpot/>} />
